@@ -24,4 +24,12 @@ docker ps -a
 ```sh
 docker images
 ```
+#### If There is any Image or Container running, stop it as it might slow down the Application use Docker Desktop.
+
+### RUNNING POSTGRESQL CONTAINER USING DOCKER
+```sh
+docker compose up -d go_db
+```
+
+If it is not running, either docker has not been installed or not added to system path.
 
