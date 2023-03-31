@@ -8,9 +8,18 @@ Here we have a simple REST API having CRUD Operations in GoLang using PostgreSQL
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="80" height="80"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="80" height="80"/> <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="80" height="80"/>
 </div>
 
-# RUN LOCALLY
+## RUN LOCALLY
 
-## -> CHECK FOR DOCKER INSTALLATION
+### CHECK FOR DOCKER INSTALLATION
 ```sh
 docker
 ```
+### CHECK FOR ANY RUNNING CONTAINERS
+```sh
+docker ps -a
+```
+### CHECK FOR ANY PREVOUSLY MADE DOCKER IMAGES
+```sh
+docker images
+```
+
